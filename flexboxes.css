@@ -1,0 +1,47 @@
+body{
+    background-color: aqua;
+    border : 1px solid black;
+    flex-wrap:  wrap;
+    align-content: flex-end ;
+    align-items: baseline;
+
+
+   
+
+}
+
+    
+
+body div{ 
+     background-color: bisque;
+      width: 20%;
+      text-align: center;
+      border: 1px solid black;
+
+      margin: 10px;  
+      
+}
+
+body main div{ background-color: yellow;
+
+}
+img{
+    width: 100%;
+}
+
+header ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display:flex ;
+}
+header ul li{
+    padding: 10px 15px;
+    border : 1px black;
+    background-color: aqua;
+    display: block;
+}
+header ul li:hover{
+    background-color: darkblue;
+}
+
