@@ -39,23 +39,58 @@ main{
     background-color: black;
 }
 
-.flex-container{
+ .flex-container{
     display: flex;
     padding: 10px;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 75%;
+    width: 100%;
     margin: auto;
 
-
 }
-@media only screen and(max-width:425px){
+
+.flex-container{
+    display: flex;
+}
+
+.flexbox-item{
+    width: 125px;
+    margin: 10px;
+    border: 5px solid darkgray;
+    background-color: white;
+}
+
+.flexbox-item-1{
+    width: 125px;
+    margin: 10px;
+    border: 5px dotted darkgray ;
+    max-height: 50px;
+    max-width: 150px;
+    padding: 0%;
+}
+
+
+
+@media only screen and(max-width:425px) {
     body{
         width: 100%;
         margin: 0;
-        padding: 0;
+        padding: 100%;
+
 
     }
+    header nav ul{
+        border: 1px solid black;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+.flex-container{
+    width: 100%;    
     
 }
-
+footer {
+    text-align: center;
+} }
