@@ -26,7 +26,8 @@ header nav ul li a{
 }
 
 header nav ul li a:hover{
-    border-bottom: 10px white;
+    background-color: 10px red;
+    bottom: red;
 
 }
 
